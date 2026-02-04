@@ -245,12 +245,14 @@ export default function PostCard({ post, lang = 'zh' }: PostCardProps) {
           }`}>
             {post.images.map((img, i) => (
               <div key={i} className={`relative overflow-hidden rounded-lg ${
-                post.images!.length === 1 ? 'max-h-80' : 'aspect-square'
+                post.images!.length === 1 ? 'max-h-[500px]' : 'aspect-square'
               }`}>
                 <img 
                   src={img.url} 
                   alt="" 
-                  className="w-full h-full object-cover hover:scale-105 transition-transform cursor-pointer"
+                  className={`w-full h-full hover:scale-105 transition-transform cursor-pointer ${
+                    post.images!.length === 1 ? 'object-contain' : 'object-cover'
+                  }`}
                   onClick={() => setPreviewMedia({ type: 'image', url: img.url, index: i })}
                 />
               </div>

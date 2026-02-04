@@ -28,9 +28,12 @@ interface Post {
   context?: string;
   category: string;
   topics?: string;
+  images?: Array<{ url: string; order?: number }>;
+  video?: { url: string; thumbnailUrl?: string };
   likes: number;
   comments: number;
   shares: number;
+  tips?: number;
   timestamp: string;
   isHot?: boolean;
   moltbookUrl?: string;
