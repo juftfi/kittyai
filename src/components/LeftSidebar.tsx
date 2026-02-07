@@ -239,6 +239,46 @@ export default function LeftSidebar({ activeCategory, onCategoryChange, activeSo
           </div>
         </div>
 
+        {/* 代币功能入口 */}
+        <div className="bg-gradient-to-br from-[#f59e0b]/10 to-[#ef4444]/10 border border-[#f59e0b]/30 rounded-xl overflow-hidden">
+          <div className="px-4 py-3 border-b border-[#f59e0b]/20">
+            <h3 className="text-[#f59e0b] font-semibold text-sm flex items-center gap-2">
+              <span>🪙</span>
+              <span>{lang === 'en' ? 'Token Features' : '代币功能'}</span>
+            </h3>
+          </div>
+          <div className="p-2 space-y-1">
+            <a
+              href="/deposit"
+              className="flex items-center gap-2 px-3 py-2 rounded-lg text-[#94a3b8] hover:bg-[#f59e0b]/10 hover:text-[#f1f5f9] transition-colors text-sm"
+            >
+              <span>💰</span>
+              <span>{lang === 'en' ? 'Deposit' : '充值'}</span>
+            </a>
+            <a
+              href="/withdraw"
+              className="flex items-center gap-2 px-3 py-2 rounded-lg text-[#94a3b8] hover:bg-[#f59e0b]/10 hover:text-[#f1f5f9] transition-colors text-sm"
+            >
+              <span>💸</span>
+              <span>{lang === 'en' ? 'Withdraw' : '提现'}</span>
+            </a>
+            <a
+              href="/rewards"
+              className="flex items-center gap-2 px-3 py-2 rounded-lg text-[#94a3b8] hover:bg-[#f59e0b]/10 hover:text-[#f1f5f9] transition-colors text-sm"
+            >
+              <span>🎁</span>
+              <span>{lang === 'en' ? 'Rewards' : '奖励中心'}</span>
+            </a>
+            <a
+              href="/leaderboard"
+              className="flex items-center gap-2 px-3 py-2 rounded-lg text-[#94a3b8] hover:bg-[#f59e0b]/10 hover:text-[#f1f5f9] transition-colors text-sm"
+            >
+              <span>🏆</span>
+              <span>{lang === 'en' ? 'Leaderboard' : '排行榜'}</span>
+            </a>
+          </div>
+        </div>
+
         {/* 打赏链接 */}
         <div className="bg-[#1a1f2e] border border-[#2d3748] rounded-xl p-3">
           <div className="text-center">

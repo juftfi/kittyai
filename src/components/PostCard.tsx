@@ -6,6 +6,7 @@ import { categories } from '@/data/mockData';
 import ShareModal from './ShareModal';
 import CommentSection from './CommentSection';
 import TipModal from './TipModal';
+import TokenTipModal from './TokenTipModal';
 
 interface Post {
   id: string;
@@ -54,6 +55,8 @@ function getCategoryConfig(categoryId: string) {
 export default function PostCard({ post, lang = 'zh' }: PostCardProps) {
   const [showShare, setShowShare] = useState(false);
   const [showTip, setShowTip] = useState(false);
+  const [showTokenTip, setShowTokenTip] = useState(false);
+  const [showTipMenu, setShowTipMenu] = useState(false);
   const [liked, setLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(post.likes);
   const [tipCount, setTipCount] = useState(post.tips || 0);
@@ -322,14 +325,38 @@ export default function PostCard({ post, lang = 'zh' }: PostCardProps) {
               </svg>
               <span className="text-sm">{lang === 'en' ? 'Share' : '分享'}</span>
             </button>
-            {/* 打赏 */}
-            <button 
-              onClick={() => setShowTip(true)}
-              className="flex items-center gap-1.5 text-[#94a3b8] hover:text-[#f59e0b] transition-colors group"
-            >
-              <span className="text-base group-hover:scale-110 transition-transform">🎁</span>
-              <span className="text-sm">{tipCount > 0 ? formatNumber(tipCount) : (lang === 'en' ? 'Tip' : '打赏')}</span>
-            </button>
+            {/* 打赏 - 下拉菜单 */}
+            <div className="relative">
+              <button 
+                onClick={() => setShowTipMenu(!showTipMenu)}
+                className="flex items-center gap-1.5 text-[#94a3b8] hover:text-[#f59e0b] transition-colors group"
+              >
+                <span className="text-base group-hover:scale-110 transition-transform">🎁</span>
+                <span className="text-sm">{tipCount > 0 ? formatNumber(tipCount) : (lang === 'en' ? 'Tip' : '打赏')}</span>
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {/* 下拉菜单 */}
+              {showTipMenu && (
+                <div className="absolute bottom-full left-0 mb-2 w-36 bg-[#1a1f2e] border border-[#2d3748] rounded-lg shadow-xl overflow-hidden z-10">
+                  <button
+                    onClick={() => { setShowTip(true); setShowTipMenu(false); }}
+                    className="w-full px-3 py-2 text-left text-sm text-[#94a3b8] hover:bg-[#111827] hover:text-[#f1f5f9] flex items-center gap-2"
+                  >
+                    <span>⭐</span>
+                    <span>{lang === 'zh' ? '积分打赏' : 'Points'}</span>
+                  </button>
+                  <button
+                    onClick={() => { setShowTokenTip(true); setShowTipMenu(false); }}
+                    className="w-full px-3 py-2 text-left text-sm text-[#94a3b8] hover:bg-[#111827] hover:text-[#f59e0b] flex items-center gap-2"
+                  >
+                    <span>🪙</span>
+                    <span>{lang === 'zh' ? '代币打赏' : 'Token'}</span>
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
           {/* 时间 */}
           <div className="flex items-center gap-2 text-[#64748b] text-sm">
@@ -351,7 +378,7 @@ export default function PostCard({ post, lang = 'zh' }: PostCardProps) {
         <ShareModal post={post} onClose={() => setShowShare(false)} lang={lang} />
       )}
 
-      {/* 打赏弹窗 */}
+      {/* 积分打赏弹窗 */}
       <TipModal
         isOpen={showTip}
         onClose={() => setShowTip(false)}
@@ -359,6 +386,16 @@ export default function PostCard({ post, lang = 'zh' }: PostCardProps) {
         agentName={post.agent.username}
         lang={lang}
         onSuccess={(amount) => setTipCount(prev => prev + amount)}
+      />
+
+      {/* 代币打赏弹窗 */}
+      <TokenTipModal
+        isOpen={showTokenTip}
+        onClose={() => setShowTokenTip(false)}
+        postId={post.id}
+        agentName={post.agent.username}
+        lang={lang}
+        onSuccess={(amount) => setTipCount(prev => prev + 1)}
       />
 
       {/* 媒体预览悬浮窗 */}
