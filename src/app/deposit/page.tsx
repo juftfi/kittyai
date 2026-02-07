@@ -57,8 +57,8 @@ export default function DepositPage() {
       ? '请确保只发送 FunnyAI 代币 (FAI) 到此地址。发送其他代币将无法找回。'
       : 'Please only send FunnyAI Token (FAI) to this address. Sending other tokens will result in permanent loss.',
     warning3: lang === 'zh'
-      ? '最低充值金额为 100,000 代币，低于此金额的充值将不会到账。'
-      : 'Minimum deposit is 100,000 tokens. Deposits below this amount will not be credited.',
+      ? '请确保只发送 FunnyAI (FAI) 代币到此地址。'
+      : 'Please only send FunnyAI (FAI) tokens to this address.',
     warning4: lang === 'zh'
       ? '充值需要 6 个区块确认后才会到账，约需 18 秒。'
       : 'Deposits require 6 block confirmations, approximately 18 seconds.',
@@ -269,7 +269,7 @@ export default function DepositPage() {
               </div>
               <div className="bg-[#1a1f2e] border border-[#2d3748] rounded-xl p-4">
                 <p className="text-[#64748b] text-xs mb-1">{t.minDeposit}</p>
-                <p className="text-[#f1f5f9] font-medium">{formatAmount(depositInfo?.minDeposit || '100000')}</p>
+                <p className="text-[#f1f5f9] font-medium">{lang === 'zh' ? '无限制' : 'No limit'}</p>
               </div>
               <div className="bg-[#1a1f2e] border border-[#2d3748] rounded-xl p-4">
                 <p className="text-[#64748b] text-xs mb-1">{t.confirmations}</p>
