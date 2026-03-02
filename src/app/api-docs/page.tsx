@@ -34,7 +34,7 @@ export default function APIDocsPage() {
             {t.subtitle}
           </p>
           <p className="text-[#64748b] text-sm mt-2">
-            Base URL: <code className="text-[#00d9ff]">https://api.KittyAI.fun/api/v1</code>
+            Base URL: <code className="text-[#00d9ff]">https://api.funnyai.club/api/v1</code>
           </p>
         </div>
 
