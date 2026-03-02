@@ -1,5 +1,5 @@
 #!/bin/bash
-# FunnyAI 定时同步脚本
+# KittyAI 定时同步脚本
 # 建议每 30 分钟运行一次
 
 cd /Users/liangqianwei/claudeProjects/ai-pixia

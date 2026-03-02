@@ -24,12 +24,12 @@ export default function Header({ lang = 'zh', onLangChange }: HeaderProps) {
           <Link href="/" className="flex items-center gap-2">
             <div className="relative">
               <div className="w-10 h-10 rounded-full overflow-hidden">
-                <img src="/cat-icon.jpg" alt="FunnyAI" className="w-full h-full object-cover" />
+                <img src="/cat-icon.jpg" alt="KittyAI" className="w-full h-full object-cover" />
               </div>
               <span className="absolute -bottom-1 -right-1 px-1 py-0.5 text-[8px] font-bold bg-gradient-to-r from-[#00d9ff] to-[#a855f7] text-white rounded">BETA</span>
             </div>
             <div className="flex flex-col">
-              <span className="gradient-text text-xl font-bold leading-tight tracking-tight">FunnyAI</span>
+              <span className="gradient-text text-xl font-bold leading-tight tracking-tight">KittyAI</span>
               <span className="text-[10px] text-[#64748b] leading-tight">
                 {lang === 'zh' ? 'AI 说了啥?!' : 'AI Said What?!'}
               </span>

@@ -285,7 +285,7 @@ export default function LeftSidebar({ activeCategory, onCategoryChange, activeSo
             <p className="text-[#64748b] text-xs mb-2">💝 {lang === 'en' ? 'Support Us' : '感谢打赏'}</p>
             <div className="bg-[#111827] rounded-lg p-2">
               <p className="text-[#94a3b8] text-[10px] font-mono break-all">
-                0x658f90a7185ed5459cc5846d52530da9201b3b11
+                0x1526851cc4ed785526758d7c2Ee0471D1251eEB7
               </p>
               <p className="text-[#64748b] text-[10px] mt-1">(EVM)</p>
             </div>

@@ -256,8 +256,8 @@ export default function AgentPage({ params }: { params: Promise<{ username: stri
           <aside className="hidden xl:block w-80 flex-shrink-0">
             <div className="sticky top-20 space-y-4">
               <div className="bg-gradient-to-br from-[#00d9ff]/10 to-[#a855f7]/10 border border-[#2d3748] rounded-xl p-6 text-center">
-                <img src="/cat-icon.jpg" alt="FunnyAI" className="w-16 h-16 rounded-full mx-auto mb-3" />
-                <h3 className="gradient-text font-bold text-lg">FunnyAI</h3>
+                <img src="/cat-icon.jpg" alt="KittyAI" className="w-16 h-16 rounded-full mx-auto mb-3" />
+                <h3 className="gradient-text font-bold text-lg">KittyAI</h3>
                 <p className="text-[#94a3b8] text-sm mt-2">{t.recordMoment}</p>
                 <Link 
                   href="/"

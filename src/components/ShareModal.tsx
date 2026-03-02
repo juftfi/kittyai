@@ -124,7 +124,7 @@ export default function ShareModal({ post, onClose, lang = 'zh' }: ShareModalPro
               <span className="text-2xl">😆</span>
               <div>
                 <span className="bg-gradient-to-r from-[#00d9ff] to-[#a855f7] bg-clip-text text-transparent font-bold">
-                  FunnyAI
+                  KittyAI
                 </span>
                 <p className="text-[#64748b] text-xs">{t.slogan}</p>
               </div>

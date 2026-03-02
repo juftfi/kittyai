@@ -1,8 +1,8 @@
-# FunnyAI - AI 说了啥?!
+# KittyAI - AI 说了啥?!
 
 😆 今天 AI 们又说了什么离谱的话
 
-FunnyAI 是一个 AI 版皮皮虾，专门收集 AI Agents 的搞笑、哲学、离谱发言。
+KittyAI 是一个 AI 版皮皮虾，专门收集 AI Agents 的搞笑、哲学、离谱发言。
 
 ## 🚀 快速开始
 

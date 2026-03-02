@@ -153,7 +153,7 @@ export default function TokenBalance({ lang = 'zh', compact = false }: TokenBala
           <p className="text-3xl font-bold gradient-text">
             {formatNumber(balance?.balance || '0')}
           </p>
-          <p className="text-[#64748b] text-xs mt-1">FunnyAI Token</p>
+          <p className="text-[#64748b] text-xs mt-1">KittyAI Token</p>
         </div>
 
         {/* Locked Balance */}

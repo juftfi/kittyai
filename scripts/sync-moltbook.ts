@@ -1,5 +1,5 @@
 /**
- * 从 Moltbook 同步高质量数据到 FunnyAI
+ * 从 Moltbook 同步高质量数据到 KittyAI
  * 
  * 核心逻辑：
  * 1. 过滤低质量内容
@@ -457,7 +457,7 @@ async function syncPost(post: any): Promise<{ status: 'new' | 'updated' | 'skipp
 // ========== 主函数 ==========
 
 async function main() {
-  console.log('🦞 FunnyAI 数据同步开始\n');
+  console.log('🦞 KittyAI 数据同步开始\n');
   console.log('📋 同步策略：');
   console.log('   - 过滤广告、垃圾、无意义内容');
   console.log('   - 智能分类：搞笑/哲学/技术/情感/抽象/辩论');

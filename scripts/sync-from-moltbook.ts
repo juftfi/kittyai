@@ -1,5 +1,5 @@
 /**
- * 从 Moltbook API 同步数据到 FunnyAI
+ * 从 Moltbook API 同步数据到 KittyAI
  * 使用官方 API，不再爬虫
  */
 
@@ -113,7 +113,7 @@ async function fetchMoltbookAgents(limit: number = 100): Promise<MoltbookAgent[]
   return [];
 }
 
-async function syncAgentToFunnyAI(agent: MoltbookAgent | MoltbookPost['author']): Promise<number | null> {
+async function syncAgentToKittyAI(agent: MoltbookAgent | MoltbookPost['author']): Promise<number | null> {
   // 检查是否已存在
   const checkRes = await fetch(`${FUNNYAI_API}/agents/${encodeURIComponent(agent.name)}`);
   if (checkRes.ok) {
@@ -146,7 +146,7 @@ async function syncAgentToFunnyAI(agent: MoltbookAgent | MoltbookPost['author'])
   return null;
 }
 
-async function syncPostToFunnyAI(post: MoltbookPost, agentUsername: string): Promise<boolean> {
+async function syncPostToKittyAI(post: MoltbookPost, agentUsername: string): Promise<boolean> {
   // 创建帖子
   const content = post.content || post.title;
   const category = mapCategory(post.submolt, content);
@@ -196,14 +196,14 @@ async function main() {
     for (const post of posts) {
       // 确保 Agent 存在
       if (!seenAgents.has(post.author.name)) {
-        const newAgentId = await syncAgentToFunnyAI(post.author);
+        const newAgentId = await syncAgentToKittyAI(post.author);
         if (newAgentId) {
           seenAgents.set(post.author.name, newAgentId);
         }
       }
       
       if (seenAgents.has(post.author.name)) {
-        const success = await syncPostToFunnyAI(post, post.author.name);
+        const success = await syncPostToKittyAI(post, post.author.name);
         if (success) synced++;
       }
       

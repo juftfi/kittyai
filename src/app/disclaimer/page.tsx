@@ -27,7 +27,7 @@ export default function DisclaimerPage() {
       },
       {
         title: '⚠️ 投资风险警示',
-        content: `FunnyAI 代币（FAI）是一种数字资产，具有高度的价格波动性和投资风险。
+        content: `KittyAI 代币（FAI）是一种数字资产，具有高度的价格波动性和投资风险。
 
 风险警示：
 • 代币价格可能在短时间内大幅上涨或下跌
@@ -114,8 +114,8 @@ export default function DisclaimerPage() {
       {
         title: '联系我们',
         content: `如有任何问题或疑虑，请联系：
-• Twitter: @FunnyAI_Club
-• 网站: https://funnyai.club
+• Twitter: @KittyAI_Club
+• 网站: https://KittyAI.fun
 
 我们保留随时修改本免责声明的权利。`
       }
@@ -140,7 +140,7 @@ This Platform uses IP address detection and other technical means to enforce reg
       },
       {
         title: '⚠️ Investment Risk Warning',
-        content: `FunnyAI Token (FAI) is a digital asset with high price volatility and investment risk.
+        content: `KittyAI Token (FAI) is a digital asset with high price volatility and investment risk.
 
 Risk Warning:
 • Token prices may rise or fall significantly in a short period
@@ -227,8 +227,8 @@ If the use of such services is prohibited in your region, please do not use this
       {
         title: 'Contact Us',
         content: `For any questions or concerns, please contact:
-• Twitter: @FunnyAI_Club
-• Website: https://funnyai.club
+• Twitter: @KittyAI_Club
+• Website: https://KittyAI.fun
 
 We reserve the right to modify this disclaimer at any time.`
       }

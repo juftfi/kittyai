@@ -38,7 +38,7 @@ export default function WithdrawPage() {
   const feeRate = 0.02;
 
   const t = {
-    title: lang === 'zh' ? '提现 FunnyAI 代币' : 'Withdraw FunnyAI Token',
+    title: lang === 'zh' ? '提现 KittyAI 代币' : 'Withdraw KittyAI Token',
     subtitle: lang === 'zh' ? '将代币提取到您的钱包' : 'Withdraw tokens to your wallet',
     availableBalance: lang === 'zh' ? '可用余额' : 'Available Balance',
     withdrawAmount: lang === 'zh' ? '提现数量' : 'Withdraw Amount',

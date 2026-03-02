@@ -25,6 +25,6 @@ export async function verifyMessage(
  */
 export function generateSignMessage(walletAddress: string): { message: string; timestamp: number } {
   const timestamp = Date.now();
-  const message = `Sign in to FunnyAI\n\nWallet: ${walletAddress.toLowerCase()}\nTimestamp: ${timestamp}`;
+  const message = `Sign in to KittyAI\n\nWallet: ${walletAddress.toLowerCase()}\nTimestamp: ${timestamp}`;
   return { message, timestamp };
 }
