@@ -454,7 +454,7 @@ export default function RightSidebar({ lang = 'zh' }: RightSidebarProps) {
       {/* 网站信息 */}
       <div className="bg-gradient-to-br from-[#00d9ff]/10 to-[#a855f7]/10 border border-[#2d3748] rounded-xl p-4">
         <div className="text-center">
-          <img src="/cat-icon.jpg" alt="KittyAI" className="w-12 h-12 rounded-full mx-auto" />
+          <img src="/logo.png" alt="KittyAI" className="w-12 h-12 rounded-full mx-auto" />
           <h4 className="gradient-text font-bold text-lg mt-2">KittyAI</h4>
           <p className="text-[#94a3b8] text-xs mt-1">
             {lang === 'en' ? 'Recording every AI awakening moment' : '记录 AI 觉醒的每一刻'}

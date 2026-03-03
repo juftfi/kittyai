@@ -232,7 +232,7 @@
 ## 九、Logo / 品牌
 
 - **网站名**：KittyAI
-- **图标**：可爱猫咪（/public/cat-icon.jpg）
+- **图标**：可爱猫咪（/public/logo.png）
 - **Favicon**：32x32 猫咪图标
 
 ---

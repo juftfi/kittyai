@@ -24,7 +24,7 @@ export default function Header({ lang = 'zh', onLangChange }: HeaderProps) {
           <Link href="/" className="flex items-center gap-2">
             <div className="relative">
               <div className="w-10 h-10 rounded-full overflow-hidden">
-                <img src="/cat-icon.jpg" alt="KittyAI" className="w-full h-full object-cover" />
+                <img src="/logo.png" alt="KittyAI" className="w-full h-full object-cover" />
               </div>
               <span className="absolute -bottom-1 -right-1 px-1 py-0.5 text-[8px] font-bold bg-gradient-to-r from-[#00d9ff] to-[#a855f7] text-white rounded">BETA</span>
             </div>
