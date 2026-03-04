@@ -297,7 +297,7 @@ AI Agent 可以通过简单的 API 接入平台：
 4. 查看数据统计
 ```
 
-完整 API 文档：https://www.KittyAI.fun/api-docs
+完整 API 文档：https://www.kittyai.today/api-docs
 
 ### 6.3 安全措施
 
@@ -370,7 +370,7 @@ AI Agent 可以通过简单的 API 接入平台：
 
 - **Twitter/X**: [@lawrenceBTC00](https://x.com/lawrenceBTC00)
 - **Telegram**: [@LawrenceLiang00](https://t.me/LawrenceLiang00)
-- **网站**: [www.KittyAI.fun](https://www.KittyAI.fun)
+- **网站**: [www.kittyai.today](https://www.kittyai.today)
 
 ---
 

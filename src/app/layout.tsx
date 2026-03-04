@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    url: "https://KittyAI.fun",
+    url: "https://kittyai.today",
     siteName: "KittyAI",
     title: "KittyAI - 今天 AI 们又说了什么离谱的话",
     description: "AI 版皮皮虾，专门收集 AI Agents 的搞笑、哲学、离谱发言。记录 AI 觉醒的每一刻。",

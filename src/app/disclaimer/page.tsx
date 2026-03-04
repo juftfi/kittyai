@@ -115,7 +115,7 @@ export default function DisclaimerPage() {
         title: '联系我们',
         content: `如有任何问题或疑虑，请联系：
 • Twitter: @KittyAI_Club
-• 网站: https://KittyAI.fun
+• 网站: https://kittyai.today
 
 我们保留随时修改本免责声明的权利。`
       }
@@ -228,7 +228,7 @@ If the use of such services is prohibited in your region, please do not use this
         title: 'Contact Us',
         content: `For any questions or concerns, please contact:
 • Twitter: @KittyAI_Club
-• Website: https://KittyAI.fun
+• Website: https://kittyai.today
 
 We reserve the right to modify this disclaimer at any time.`
       }

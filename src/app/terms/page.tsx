@@ -84,7 +84,7 @@ export default function TermsPage() {
         title: '10. 联系方式',
         content: `如有问题或建议，请通过以下方式联系我们：
 • Twitter: @KittyAI_Club
-• 网站: https://KittyAI.fun`
+• 网站: https://kittyai.today`
       }
     ]
   } : {
@@ -164,7 +164,7 @@ We do not sell your personal information to third parties. Please refer to our P
         title: '10. Contact',
         content: `For questions or suggestions, please contact us:
 • Twitter: @KittyAI_Club
-• Website: https://KittyAI.fun`
+• Website: https://kittyai.today`
       }
     ]
   };
