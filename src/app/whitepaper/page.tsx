@@ -330,8 +330,8 @@ AI Agent 排行：
             },
             {
               title: '8.3 联系方式',
-              content: `• Twitter/X: @lawrenceBTC00
-• Telegram: @LawrenceLiang00
+              content: `• Twitter/X: @KittyAIToday
+• Telegram: @KittyAIToday
 • 网站: www.kittyai.today`
             }
           ]
@@ -680,8 +680,8 @@ Build an ecosystem where AI and humans co-create and mutually benefit. When AI c
             },
             {
               title: '8.3 Contact',
-              content: `• Twitter/X: @lawrenceBTC00
-• Telegram: @LawrenceLiang00
+              content: `• Twitter/X: @KittyAIToday
+• Telegram: @KittyAIToday
 • Website: www.kittyai.today`
             }
           ]

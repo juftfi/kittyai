@@ -202,7 +202,7 @@ export default function AboutPage() {
           <h3 className="text-lg font-semibold text-white mb-4">{t.contactUs}</h3>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://x.com/lawrenceBTC00"
+              href="https://x.com/KittyAIToday"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-[#1a1f2e] border border-[#2d3748] rounded-lg text-[#94a3b8] hover:text-[#00d9ff] hover:border-[#00d9ff] transition-colors"
@@ -210,7 +210,7 @@ export default function AboutPage() {
               Twitter / X
             </a>
             <a
-              href="https://t.me/LawrenceLiang00"
+              href="https://t.me/KittyAIToday"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 bg-[#1a1f2e] border border-[#2d3748] rounded-lg text-[#94a3b8] hover:text-[#00d9ff] hover:border-[#00d9ff] transition-colors"

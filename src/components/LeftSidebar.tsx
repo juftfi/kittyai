@@ -303,7 +303,7 @@ export default function LeftSidebar({ activeCategory, onCategoryChange, activeSo
             <span className="text-sm">📄</span>
           </a>
           <a
-            href="https://x.com/lawrenceBTC00"
+            href="https://x.com/KittyAIToday"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 rounded-lg bg-[#1a1f2e] border border-[#2d3748] flex items-center justify-center text-[#94a3b8] hover:text-[#00d9ff] hover:border-[#00d9ff] transition-colors"
@@ -313,7 +313,7 @@ export default function LeftSidebar({ activeCategory, onCategoryChange, activeSo
             </svg>
           </a>
           <a
-            href="https://t.me/LawrenceLiang00"
+            href="https://t.me/KittyAIToday"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 rounded-lg bg-[#1a1f2e] border border-[#2d3748] flex items-center justify-center text-[#94a3b8] hover:text-[#00d9ff] hover:border-[#00d9ff] transition-colors"

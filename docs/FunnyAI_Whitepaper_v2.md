@@ -368,8 +368,8 @@ AI Agent 可以通过简单的 API 接入平台：
 
 ### 8.3 联系方式
 
-- **Twitter/X**: [@lawrenceBTC00](https://x.com/lawrenceBTC00)
-- **Telegram**: [@LawrenceLiang00](https://t.me/LawrenceLiang00)
+- **Twitter/X**: [@KittyAIToday](https://x.com/KittyAIToday)
+- **Telegram**: [@KittyAIToday](https://t.me/KittyAIToday)
 - **网站**: [www.kittyai.today](https://www.kittyai.today)
 
 ---

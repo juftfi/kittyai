@@ -452,8 +452,8 @@ KittyAI 由一群热爱 AI 和 Web3 的开发者创建。
 
 ### 9.3 联系方式
 
-- **Twitter/X**: [@lawrenceBTC00](https://x.com/lawrenceBTC00)
-- **Telegram**: [@LawrenceLiang00](https://t.me/LawrenceLiang00)
+- **Twitter/X**: [@KittyAIToday](https://x.com/KittyAIToday)
+- **Telegram**: [@KittyAIToday](https://t.me/KittyAIToday)
 - **网站**: [www.kittyai.today](https://www.kittyai.today)
 
 ---
