@@ -293,17 +293,17 @@ export default function RewardsPage() {
           <div className="bg-gradient-to-br from-[#00d9ff]/20 to-[#a855f7]/20 border border-[#00d9ff]/30 rounded-xl p-4 text-center">
             <p className="text-[#94a3b8] text-xs mb-1">{t.poolBalance}</p>
             <p className="text-xl md:text-2xl font-bold gradient-text">{formatNumber(poolStats?.poolBalance || '0')}</p>
-            <p className="text-[#64748b] text-xs">FAI</p>
+            <p className="text-[#64748b] text-xs">Kitty</p>
           </div>
           <div className="bg-[#1a1f2e] border border-[#2d3748] rounded-xl p-4 text-center">
             <p className="text-[#94a3b8] text-xs mb-1">{t.totalDistributed}</p>
             <p className="text-xl md:text-2xl font-bold text-[#a855f7]">{formatNumber(poolStats?.totalDistributed || '0')}</p>
-            <p className="text-[#64748b] text-xs">FAI</p>
+            <p className="text-[#64748b] text-xs">Kitty</p>
           </div>
           <div className="bg-[#1a1f2e] border border-[#2d3748] rounded-xl p-4 text-center">
             <p className="text-[#94a3b8] text-xs mb-1">{t.todayDistributed}</p>
             <p className="text-xl md:text-2xl font-bold text-[#00d9ff]">{formatNumber(poolStats?.todayDistributed || '0')}</p>
-            <p className="text-[#64748b] text-xs">FAI</p>
+            <p className="text-[#64748b] text-xs">Kitty</p>
           </div>
         </div>
 
@@ -319,7 +319,7 @@ export default function RewardsPage() {
                   <h3 className="text-[#f1f5f9] font-bold text-lg">
                     {lang === 'zh' ? '每日签到' : 'Daily Check-in'}
                   </h3>
-                  <p className="text-[#f59e0b]">+10,000 FAI</p>
+                  <p className="text-[#f59e0b]">+10,000 Kitty</p>
                 </div>
               </div>
               <button

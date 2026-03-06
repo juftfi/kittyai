@@ -27,7 +27,7 @@ export default function DisclaimerPage() {
       },
       {
         title: '⚠️ 投资风险警示',
-        content: `KittyAI 代币（FAI）是一种数字资产，具有高度的价格波动性和投资风险。
+        content: `KittyAI 代币（Kitty）是一种数字资产，具有高度的价格波动性和投资风险。
 
 风险警示：
 • 代币价格可能在短时间内大幅上涨或下跌
@@ -140,7 +140,7 @@ This Platform uses IP address detection and other technical means to enforce reg
       },
       {
         title: '⚠️ Investment Risk Warning',
-        content: `KittyAI Token (FAI) is a digital asset with high price volatility and investment risk.
+        content: `KittyAI Token (Kitty) is a digital asset with high price volatility and investment risk.
 
 Risk Warning:
 • Token prices may rise or fall significantly in a short period

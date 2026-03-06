@@ -241,7 +241,7 @@ export default function WithdrawPage() {
                 <div className="flex justify-between items-center">
                   <span className="text-[#64748b] text-sm">{t.availableBalance}</span>
                   <span className="text-[#f1f5f9] font-bold text-lg">
-                    {formatNumber(balance?.balance || '0')} FAI
+                    {formatNumber(balance?.balance || '0')} Kitty
                   </span>
                 </div>
               </div>
@@ -284,11 +284,11 @@ export default function WithdrawPage() {
                   <div className="bg-[#111827] rounded-xl p-4 space-y-2">
                     <div className="flex justify-between text-sm">
                       <span className="text-[#64748b]">{t.fee}</span>
-                      <span className="text-[#f59e0b]">-{formatNumber(calculateFee(amountNum))} FAI</span>
+                      <span className="text-[#f59e0b]">-{formatNumber(calculateFee(amountNum))} Kitty</span>
                     </div>
                     <div className="flex justify-between text-sm pt-2 border-t border-[#2d3748]">
                       <span className="text-[#64748b]">{t.willReceive}</span>
-                      <span className="text-green-400 font-medium">{formatNumber(calculateReceive(amountNum))} FAI</span>
+                      <span className="text-green-400 font-medium">{formatNumber(calculateReceive(amountNum))} Kitty</span>
                     </div>
                   </div>
                 )}
@@ -339,7 +339,7 @@ export default function WithdrawPage() {
                       <div className="flex items-center justify-between mb-2">
                         <div>
                           <p className="text-[#f1f5f9] font-medium">
-                            -{formatNumber(w.amount)} FAI
+                            -{formatNumber(w.amount)} Kitty
                           </p>
                           <p className="text-[#64748b] text-xs">
                             {t.fee}: {formatNumber(w.fee)} | {t.willReceive}: {formatNumber(w.netAmount)}

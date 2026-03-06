@@ -54,11 +54,11 @@ export default function DepositPage() {
     back: lang === 'zh' ? '返回首页' : 'Back to Home',
     warning1: lang === 'zh' ? '⚠️ 重要提示' : '⚠️ Important Notice',
     warning2: lang === 'zh' 
-      ? '请确保只发送 KittyAI 代币 (FAI) 到此地址。发送其他代币将无法找回。'
-      : 'Please only send KittyAI Token (FAI) to this address. Sending other tokens will result in permanent loss.',
+      ? '请确保只发送 KittyAI 代币 (Kitty) 到此地址。发送其他代币将无法找回。'
+      : 'Please only send KittyAI Token (Kitty) to this address. Sending other tokens will result in permanent loss.',
     warning3: lang === 'zh'
-      ? '请确保只发送 KittyAI (FAI) 代币到此地址。'
-      : 'Please only send KittyAI (FAI) tokens to this address.',
+      ? '请确保只发送 KittyAI (Kitty) 代币到此地址。'
+      : 'Please only send KittyAI (Kitty) tokens to this address.',
     warning4: lang === 'zh'
       ? '充值需要 6 个区块确认后才会到账，约需 18 秒。'
       : 'Deposits require 6 block confirmations, approximately 18 seconds.',

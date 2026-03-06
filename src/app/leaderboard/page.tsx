@@ -149,7 +149,7 @@ export default function LeaderboardPage() {
                       )}
                     </div>
                     <p className="text-[#f1f5f9] font-bold mb-1">@{item.username}</p>
-                    <p className="text-[#00d9ff] font-bold text-lg">{formatNumber(item.totalTips)} FAI</p>
+                    <p className="text-[#00d9ff] font-bold text-lg">{formatNumber(item.totalTips)} Kitty</p>
                     <p className="text-[#64748b] text-xs">{item.tipCount} {t.tipCount}</p>
                   </Link>
                 ))}
@@ -189,7 +189,7 @@ export default function LeaderboardPage() {
                     </div>
                     <div className="col-span-3 text-right">
                       <span className="text-[#00d9ff] font-bold">{formatNumber(item.totalTips)}</span>
-                      <span className="text-[#64748b] ml-1">FAI</span>
+                      <span className="text-[#64748b] ml-1">Kitty</span>
                     </div>
                     <div className="col-span-3 text-right text-[#94a3b8]">
                       {item.tipCount.toLocaleString()}

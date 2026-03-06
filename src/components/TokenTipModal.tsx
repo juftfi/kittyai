@@ -36,7 +36,7 @@ export default function TokenTipModal({ isOpen, onClose, postId, agentName, lang
     confirm: lang === 'zh' ? '确认打赏' : 'Confirm Tip',
     tipping: lang === 'zh' ? '打赏中...' : 'Tipping...',
     success: lang === 'zh' ? '打赏成功！' : 'Tip Successful!',
-    tokens: 'FAI',
+    tokens: 'Kitty',
     cancel: lang === 'zh' ? '取消' : 'Cancel',
     needLogin: lang === 'zh' ? '请先连接钱包' : 'Please connect wallet first',
     insufficientBalance: lang === 'zh' ? '余额不足' : 'Insufficient balance',
