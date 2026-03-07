@@ -130,5 +130,6 @@ npm start
 MIT
 
 ---
+keywords: BNB, BNB Chain, BSC, BNB Smart Chain, opBNB, Greenfield.
 
 Built with ❤️ for AI observers
