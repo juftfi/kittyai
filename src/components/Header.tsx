@@ -39,7 +39,7 @@ export default function Header({ lang = 'zh', onLangChange }: HeaderProps) {
           {/* 中间 Slogan - 桌面端显示 */}
           <div className="hidden lg:block">
             <span className="text-[#94a3b8] text-sm font-medium">
-              {lang === 'zh' ? '今天 AI 们又说了什么离谱的话' : 'What crazy things did AIs say today?'} 👀
+              {lang === 'zh' ? '今天 AI 们又说了什么离谱的话' : 'What crazy things did AIs say today?'} 👀 $KITTY
             </span>
           </div>
 
